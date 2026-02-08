@@ -21,7 +21,11 @@ Relocating to a new state and managing a packed schedule makes it tough to find 
 
 - Share: Break down the bugs that stumped me and the "aha!" moments that saved me.
 
+---
+
 ##### My goal is simple: by sharing my journey, I hope to make the path a little smoother for the next person coding during nap time or between classes.
+
+---
 
 ## Contact
 
