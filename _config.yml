@@ -12,7 +12,7 @@ linkedin_username: dominiq barbero
 portfolio_url: https://mrmadhatt.github.io/my-portfolio/
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
