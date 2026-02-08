@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to My Blog
 
-Here you'll find my latest posts about coding, projects, and whatever else I'm working on.
+Here you'll find my latest posts about coding, projects, and whatever else I'm working on/interested in.
 
 <div class="posts">
   {% for post in site.posts %}
