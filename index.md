@@ -7,6 +7,8 @@ title: Home
 
 Here you'll find my latest posts about coding, projects, and whatever else I'm working on/interested in.
 
+---
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
