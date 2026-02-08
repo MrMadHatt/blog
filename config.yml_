@@ -1,9 +1,15 @@
 # Site settings
 title: MrMadHatt's Blog
 description: >-
-  Welcome to my blog where I share my thoughts, projects, and learnings.
+  Welcome to my blog where I share my thoughts, projects, and learnings. This is a space for me to connect with like-minded people and share my journey in the world of tech, programming, and more. Feel free to explore and join the conversation!
 baseurl: "/blog" 
 url: "https://MrMadHatt.github.io"
+
+# Social Links
+github_username: MrMadHatt
+twitch_username: mr_madhat
+linkedin_username: dominiq barbero
+portfolio_url: https://mrmadhatt.github.io/my-portfolio/
 
 # Build settings
 theme: minima
