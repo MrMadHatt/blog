@@ -21,6 +21,13 @@ theme: jekyll-theme-hacker
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
+# Header navigation order
+header_pages:
+  - index.md
+  - about.md
+  - posts.md
+  - archive.md
+
 # Plugins
 plugins:
   - jekyll-feed
