@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to My Blog
 
-Here you'll find my latest posts about coding, projects, and whatever else I'm working on/interested in.
+This is my workspace for sharing what I’m building, the lessons I’m learning, and the ideas I’m testing along the way.
 
 ---
 

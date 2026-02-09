@@ -16,21 +16,18 @@
     <div class="container">
       <div id="inner">
       <header>
+        {% assign resolved_description = page.description | default: site.description | default: site.github.project_tagline %}
         <h1>{{ page.title | default: site.title | default: site.github.repository_name}}</h1>
-        <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        {% if resolved_description != blank %}
+        <h2>{{ resolved_description }}</h2>
+        {% endif %}
       </header>
       <hr>
       <section id="main_content">
         {{ content }}
       </section>
-      <section id="footer">
-      </section>
-      </div>
-      </div>
-      
         {% include footer.html %}
-
-      </section>
+      </div>
     </div>
 
   </body>
