@@ -1,8 +1,8 @@
 /* Navigation styles */
 .site-nav {
-  background-color: #151515;
+  background-color: #212121;
   padding: 1rem 0;
-  border-bottom: 2px solid #00ff00;
+  border-bottom: 2px solid #2b942b;
   margin-bottom: 2rem;
 }
 
@@ -23,8 +23,16 @@
 }
 
 .nav-link:hover {
-  opacity: 0.7;
+  opacity: 1;
+  text-decoration: underline; 
+  color: #00ffee;
+  
+}
+
+.nav-link:focus-visible {
+  opacity: 1;
   text-decoration: underline;
+  color: #00ffee;
 }
 
 /* Homepage styling */
@@ -64,7 +72,7 @@ hr {
 }
 
 .post-item h2 a {
-  color: #63c0f5;
+  color: #5dc4ff;
   text-decoration: none;
 }
 
@@ -87,4 +95,70 @@ hr {
 
 .read-more:hover {
   text-decoration: underline;
+  color: #00ffee;
+}
+
+.read-more:focus-visible {
+  text-decoration: underline;
+  color: #00ffee;
+}
+
+/* Footer styling */
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 3rem 0 2rem;
+  margin-top: 4rem;
+  border-top: 2px solid #00ff00;
+  background-color: #151515;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: #00ff00;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+}
+
+.footer-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.footer-icon-solid {
+  fill: currentColor;
+  stroke: none;
+}
+
+.footer-link:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  color: #00ffee;
+}
+
+.footer-link:focus-visible {
+  opacity: 0.7;
+  text-decoration: underline;
+  color: #00ffee;
+}
+
+.footer-copy {
+  margin: 0;
+  color: #999;
+  font-size: 0.9rem;
 }

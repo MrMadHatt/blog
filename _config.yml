@@ -1,7 +1,7 @@
 # Site settings
 title: MrMadHatt's Blog
 description: >-
-  Welcome to my blog where I share my thoughts, projects, and learnings. This is a space for me to connect with like-minded people and share my journey in the world of tech, programming, and more. Feel free to explore and join the conversation!
+  A personal tech journal and general blog with coding notes, project updates, and reflections—written to connect with like-minded people along the way.
 baseurl: "/blog" 
 url: "https://MrMadHatt.github.io"
 
