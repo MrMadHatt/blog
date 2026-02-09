@@ -8,8 +8,13 @@ url: "https://MrMadHatt.github.io"
 # Social Links
 github_username: MrMadHatt
 twitch_username: mr_madhat
-linkedin_username: dominiq barbero
+linkedin_username: dominiq-barbero
 portfolio_url: https://mrmadhatt.github.io/my-portfolio/
+
+# Author
+author:
+  name: Dominiq Barbero
+  github: MrMadHatt
 
 # Build settings
 theme: jekyll-theme-hacker
@@ -20,6 +25,7 @@ permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-github-metadata
 
 # Exclude from processing
 exclude:

@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Blog
-
 This is my workspace for sharing what I’m building, the lessons I’m learning, and the ideas I’m testing along the way.
 
 ---
