@@ -56,15 +56,15 @@ hr {
   opacity: 0.6;
 }
 
-header {
+.container > header {
   margin-bottom: 1rem;
 }
 
-header h1 {
+.container > header h1 {
   margin-bottom: 0.25rem;
 }
 
-header h2 {
+.container > header h2 {
   margin-top: 0;
 }
 
