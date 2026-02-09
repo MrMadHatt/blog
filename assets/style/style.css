@@ -1,8 +1,8 @@
 /* Navigation styles */
 .site-nav {
-  background-color: #151515;
+  background-color: #212121;
   padding: 1rem 0;
-  border-bottom: 2px solid #00ff00;
+  border-bottom: 2px solid #2b942b;
   margin-bottom: 2rem;
 }
 
@@ -23,8 +23,9 @@
 }
 
 .nav-link:hover {
-  opacity: 0.7;
+  opacity: 1.5;
   text-decoration: underline;
+  color: #00ffee;
 }
 
 /* Homepage styling */
@@ -64,7 +65,7 @@ hr {
 }
 
 .post-item h2 a {
-  color: #63c0f5;
+  color: #5dc4ff;
   text-decoration: none;
 }
 
@@ -87,4 +88,11 @@ hr {
 
 .read-more:hover {
   text-decoration: underline;
+  color: #00ffee;
+}
+
+footer a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  color: #00ffee;
 }
