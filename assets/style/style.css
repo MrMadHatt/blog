@@ -52,8 +52,20 @@
 hr {
   border: none;
   border-top: 2px solid #00ff00;
-  margin: 2rem 0;
+  margin: 1rem 0;
   opacity: 0.6;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.25rem;
+}
+
+header h2 {
+  margin-top: 0;
 }
 
 /* Post items on homepage */
