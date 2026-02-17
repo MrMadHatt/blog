@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+<script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+<style>
+    .py-container {
+        background: #202020;
+        color: #d4d4d4;
+        padding: 15px;
+        border-radius: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 20px;
+        border: 1px solid #333;
+    }
+    #loading-msg {
+        color: #888;
+        font-style: italic;
+    }
+    #content {
+        display: none;
+    }
+</style>
+
+<div class="py-container">
+    <div id="loading-msg">Initializing Python runtime... ⏳</div>
+    <div id="content">
+        <div style="margin-bottom: 5px;">
+            <span style="color: #56dfc4;">>>></span> 
+            <span style="color: #ae25df;">print</span>(<span style="color: #e77345;">"Hello, World!"</span>)
+        </div>
+        <div>
+            <span id="output" style="color: #d4d4d4;"></span>
+        </div>
+    </div>
+</div>
+
+<script type="py">
+    from pyscript import display
+    import js
+
+    js.document.getElementById("loading-msg").style.display = "none"
+    js.document.getElementById("content").style.display = "block"
+    
+    display("Hello, World!", target="output")
+</script>
