@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "My First Blog Post"
+title: "Hello World"
 date: 2026-02-08
 ---
 
