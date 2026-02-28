@@ -21,11 +21,11 @@
 </style>
 
 <div class="py-container">
-    <div id="loading-msg">Initializing Python runtime... ⏳</div>
+    <!-- Python runtime message removed -->
     <div id="content">
         <div style="margin-bottom: 5px;">
             <span style="color: #56dfc4;">>>></span> 
-            <span style="color: #ae25df;">print</span>(<span style="color: #e77345;">"Hello, World!"</span>)
+            <!-- Python print statement removed -->
         </div>
         <div>
             <span id="output" style="color: #d4d4d4;"></span>
@@ -34,11 +34,10 @@
 </div>
 
 <script type="py">
-    from pyscript import display
-    import js
+    <!-- Python imports removed -->
 
     js.document.getElementById("loading-msg").style.display = "none"
     js.document.getElementById("content").style.display = "block"
     
-    display("Hello, World!", target="output")
+    <!-- Python display statement removed -->
 </script>
