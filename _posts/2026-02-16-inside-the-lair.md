@@ -4,10 +4,6 @@ title: "Inside the Lair"
 date: 2026-02-08
 ---
 
- 
-
-{% include hello_world.html %}
-
 **Thanks for stopping by and taking the time to read my post. This will focus on a project still under development called "Lair_of_xaldern" and the reason behind building it.**
 
 ---
